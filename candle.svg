@@ -1,0 +1,6 @@
+<svg viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tubuh Lilin -->
+  <rect x="45" y="0" width="10" height="150" fill="#ffcc00"/>
+  <!-- Api Lilin -->
+  <path d="M50 150 L55 170 L45 170 Z" fill="orange"/>
+</svg>

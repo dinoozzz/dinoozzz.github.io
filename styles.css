@@ -1,0 +1,227 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    font-size: 3rem;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ballons img {
+    width: 100px;
+    margin: 0 10px;
+    animation: balloon-float 2s ease-in-out infinite alternate;
+}
+
+.birthday-wish {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cake {
+    position: relative;
+}
+
+.cake img {
+     width: 300px;
+}
+
+.candle {
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: #ffcc00;
+    bottom: 150px;
+}
+
+.candle:nth-child(1) {
+    left: 130px;
+}
+
+.candle:nth-child(2) {
+    left: 170px;
+}
+
+.candle:nth-child(3) {
+    left: 210px;
+}
+
+.candle:nth-child(4) {
+    left: 250px;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.footer p{
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.footer p span {
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+@keyframes balloon-float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    background-image: url('img/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.message h2 {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.message p {
+    font-weight: bold;
+}
+
+.ballons img {
+    width: 100px;
+    margin: 0 10px;
+    animation: balloon-float 1s ease-in-out infinite alternate;
+}
+
+.birthday-wish {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.birthday-wish p {
+    background-color: #fdfd65;
+    color: #333;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.cake {
+    position: relative;
+}
+
+.cake img {
+    width: 300px;
+    animation: balloon-float 1s ease-in-out infinite alternate;
+    
+}
+
+.candle {
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: #ffcc00;
+    bottom: 150px;
+}
+
+.candle:nth-child(1) {
+    left: 130px;
+}
+
+.candle:nth-child(2) {
+    left: 170px;
+}
+
+.candle:nth-child(3) {
+    left: 210px;
+}
+
+.candle:nth-child(4) {
+    left: 250px;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.footer p span {
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+@keyframes balloon-float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes cake-float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
